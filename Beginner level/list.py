@@ -1,0 +1,16 @@
+justice_league = ["Superman", "Batman", "Wonder Woman", "Flash", "Aquaman", "Green Lantern"]
+print("Number of members:", len(justice_league))
+justice_league.append('Batgirl')
+justice_league.append('Nightwing')
+print(justice_league)
+justice_league.remove('Wonder Woman')
+justice_league.insert(0, 'Wonder Woman')
+print(justice_league)
+justice_league.remove('Green Lantern')
+justice_league.insert(4, 'Green Lantern')
+print(justice_league)
+justice_league = ['Cyborg', 'Hawkgirl', 'Martian Manhunter', 'Green Arrow']
+print(justice_league)
+justice_league.sort()
+print(justice_league)
+print("New leader: ", justice_league[0])
